@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="47" started-at="2018-10-09T13:50:13Z" finished-at="2018-10-09T13:50:13Z">
+    <groups>
+    </groups>
+    <test name="Group of group Test" duration-ms="47" started-at="2018-10-09T13:50:13Z" finished-at="2018-10-09T13:50:13Z">
+      <class name="com.week2.day4.examples.tests.testComputeSum">
+        <test-method status="PASS" signature="testSumNumbers()[pri:0, instance:com.week2.day4.examples.tests.testComputeSum@3c5a99da]" name="testSumNumbers" duration-ms="2" started-at="2018-10-09T13:50:13Z" finished-at="2018-10-09T13:50:13Z">
+        </test-method>
+      </class>
+      <class name="com.day6.test.testReverseStrings">
+        <test-method status="PASS" signature="testReverse()[pri:0, instance:com.day6.test.testReverseStrings@71c7db30]" name="testReverse" duration-ms="16" started-at="2018-10-09T13:50:13Z" finished-at="2018-10-09T13:50:13Z">
+        </test-method>
+        <test-method status="PASS" signature="testReverseWordsInArray(java.lang.String, java.lang.String)[pri:0, instance:com.day6.test.testReverseStrings@71c7db30]" name="testReverseWordsInArray" duration-ms="3" started-at="2018-10-09T13:50:13Z" finished-at="2018-10-09T13:50:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello Dear World!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[World! Dear Hello]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="com.day5.test.testReverseStrings">
+        <test-method status="PASS" signature="testReverseWordsInArray()[pri:0, instance:com.day5.test.testReverseStrings@19bb089b]" name="testReverseWordsInArray" duration-ms="0" started-at="2018-10-09T13:50:13Z" finished-at="2018-10-09T13:50:13Z">
+        </test-method>
+        <test-method status="PASS" signature="testReverse()[pri:0, instance:com.day5.test.testReverseStrings@19bb089b]" name="testReverse" duration-ms="1" started-at="2018-10-09T13:50:13Z" finished-at="2018-10-09T13:50:13Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
